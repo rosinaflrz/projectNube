@@ -1,0 +1,17 @@
+{
+  "aws": {
+    "accessKeyId": "TU_ACCESS_KEY",
+    "secretAccessKey": "TU_SECRET_KEY",
+    "sessionToken": "TU_SESSION_TOKEN",
+    "region": "us-east-1"
+  },
+  "sqs": {
+    "queueUrl": "URL_DE_TU_COLA_SQS"
+  },
+  "sns": {
+    "topicArn": "ARN_DE_TU_TOPIC_SNS"
+  },
+  "server": {
+    "port": 3000
+  }
+}

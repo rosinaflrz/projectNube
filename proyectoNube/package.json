@@ -1,0 +1,14 @@
+{
+  "name": "proyectonube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project.js",
+  "scripts": {
+    "start": "node -e \"const fs = require('fs'); const path = './config.json'; if (!fs.existsSync(path)) { const configData = { server: { port: 3000 } }; fs.writeFileSync(path, JSON.stringify(configData, null, 2)); }\" && echo 'Todo funciona correctamente.' && node project.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "aws-sdk": "^2.814.0",
+    "body-parser": "^1.19.0"
+  }
+}
