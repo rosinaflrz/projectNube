@@ -23,8 +23,3 @@ El sistema permite:
 - **Amazon SQS**: Para gestionar la cola de mensajes.
 - **Amazon DynamoDB**: Para almacenar y consultar mensajes.
 
-## Instalación
-
-1. **Clona el repositorio**:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
